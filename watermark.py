@@ -141,7 +141,6 @@ def save_image():
     Saves watermarked image.
 
     '''
-    global image_name
     try:    
         image_name  = asksaveasfile(mode='wb', defaultextension=f".{filetype}", title = "Save your image", filetypes=FILETYPES)
         if image_name: 
